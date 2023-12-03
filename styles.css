@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.imageContainer img,
+.architecture-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+.architecture-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.architecture-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
